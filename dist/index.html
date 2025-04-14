@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>戰鬥機</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飛機射擊遊戲</title>
+    <style>
+        body {
+            margin: 0;
+            text-align: center;
+            background-color: black;
+        }
+        canvas {
+            background-color: #111;
+        }
+        #restartBtn {
+            display: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white;">飛機射擊遊戲</h1>
+    <canvas id="gameCanvas"></canvas>
+    <br>
+    <button id="restartBtn" onclick="restartGame()">重新開始</button>
+    <script src="game.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
